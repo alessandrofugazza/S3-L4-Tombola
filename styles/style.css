@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+main {
+    width: 70%;
+    margin-inline: auto;
+}
+
+.cell {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.cell p {
+    text-align: center;
+}
